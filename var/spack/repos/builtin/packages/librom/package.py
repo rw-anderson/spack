@@ -13,7 +13,7 @@ class Librom(AutotoolsPackage):
     homepage = "https://github.com/LLNL/libROM"
     git      = "https://github.com/LLNL/libROM.git"
 
-    version('develop', branch='master')
+    version('develop', branch='automake-dev')
 
     depends_on('lapack')
     depends_on('mpi')
